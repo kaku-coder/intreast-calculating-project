@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loan calculater program  || kaku coder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenor">
+        <h1>loan calculator</h1>
+        <p>loan amount
+            <input type="number" onchange="calculateloan()"     class="input" name="" id="loan-amout" max="500000" min="10" value="1000">
+        </p>
+        <p>interest rate %
+            <input type="number" onchange="calculateloan()"      class="input" name="" id="intreset-rate"  max="0" min="100" value="10">
+        </p>
+        <p>months to pay  
+            <input type="number" onchange="calculateloan()"      class="input" name="" id="months-to-pay"  max="48" min="6" value="12">
+        </p>
+        <p class="payment">Monthly payments : </p>
+    </div>
+
+    <script src="file.js"></script>
+</body>
+</html>
